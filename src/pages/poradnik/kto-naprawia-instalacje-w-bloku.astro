@@ -1,0 +1,253 @@
+---
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const title = "Kto naprawia rury w bloku: lokator czy administracja?";
+const h1 = "Co w bloku naprawia lokator, a co administracja i wynajmujący?";
+const description =
+  "Pion, zawór przy wodomierzu, podejścia, bateria, grzejnik. Co w bloku naprawia właściciel mieszkania, co administracja, a co najemca i wynajmujący.";
+
+const faq = [
+  {
+    q: "Kto płaci za hydraulika w wynajmowanym mieszkaniu?",
+    a: "To zależy od tego, co się zepsuło. Naprawa baterii, spłuczki albo syfonu należy zwykle do najemcy, a naprawa rur z wodą w ścianach i w podłodze do właściciela mieszkania. Umowa najmu może ten podział zmienić, więc trzeba do niej zajrzeć przed zleceniem naprawy.",
+  },
+  {
+    q: "Kto odpowiada za pion wodny i kanalizacyjny w bloku?",
+    a: "Wspólnota albo spółdzielnia, bo pion służy wielu mieszkaniom. Dotyczy to także odcinka, który przechodzi przez łazienkę albo kuchnię mieszkania. Nieszczelny pion zgłasza się administracji, a właściciel udostępnia mieszkanie na czas naprawy.",
+  },
+  {
+    q: "Czy hydraulik przysłany przez spółdzielnię albo wspólnotę jest płatny?",
+    a: "Za naprawę pionu i innych części wspólnych płaci wspólnota albo spółdzielnia. Jeśli hydraulik administracji naprawia coś, co należy do mieszkania, na przykład baterię albo spłuczkę, administracja może policzyć za to osobno. O koszt najlepiej zapytać przed naprawą.",
+  },
+  {
+    q: "Czy mogę sam wymienić zawór przy wodomierzu?",
+    a: "Nie zaczynaj bez zgody administracji. Ten zawór najczęściej należy do części wspólnej, a do jego wymiany trzeba zamknąć wodę na całym pionie. Jeśli administracja potwierdzi, że wymiana należy do właściciela mieszkania, zadzwoń: 511 323 123.",
+  },
+  {
+    q: "Kto płaci za zalanie sąsiada z dołu?",
+    a: "Ten, z czyjej winy powstała szkoda. Nie ma zasady, że zawsze odpowiada mieszkanie z góry. Ustala się, co było przyczyną i kto miał dbać o element, który zawiódł: właściciel, najemca czy wspólnota albo spółdzielnia.",
+  },
+];
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: h1,
+  description,
+  author: { "@type": "Organization", name: "i Hydraulik" },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: { "@type": "ImageObject", url: "https://i-hydraulik.pl/favicon.svg" },
+  },
+  mainEntityOfPage: "https://i-hydraulik.pl/poradnik/kto-naprawia-instalacje-w-bloku",
+  datePublished: "2026-11-15T18:47:12+01:00",
+  dateModified: "2026-11-15T18:47:12+01:00",
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<PoradnikLayout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>Kto naprawia instalację w bloku</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">Blok i najem</span>
+        <h1>{h1}</h1>
+        <p class="article__lead">
+          Cieknie przy wodomierzu, kapie z pionu w łazience, w wynajętym mieszkaniu zepsuła się bateria. Zanim ktoś przyjedzie to naprawić, trzeba ustalić, czyja to część instalacji, bo od tego zależy, kto zleca naprawę i kto za nią płaci.
+        </p>
+
+        <div class="article__content">
+          <p>
+            Przy zgłoszeniu z bloku pytam o dwie rzeczy: w którym miejscu cieknie i czy mieszkanie jest własne, czy wynajmowane. Podział da się opisać krótko. Są w nim jednak miejsca, w których decyduje dokument budynku, a nie zwyczaj.
+          </p>
+
+          <h2>Wspólne jest to, co służy więcej niż jednemu mieszkaniu</h2>
+          <p>
+            Ustawa o własności lokali mówi, że nieruchomość wspólną stanowią te części budynku i urządzenia, które nie służą wyłącznie do użytku właścicieli lokali (art. 3 ust. 2). Pion wody, pion kanalizacyjny i pion centralnego ogrzewania obsługują wiele mieszkań, więc należą do wspólnoty albo spółdzielni. Także na tym odcinku, który przechodzi przez łazienkę mieszkania. Rury, które odchodzą od pionu i zasilają jedno mieszkanie, utrzymuje jego właściciel (art. 13 ust. 1).
+          </p>
+          <p>
+            Ustawa nie wskazuje, w którym dokładnie miejscu rury kończy się część wspólna. Dlatego wspólnoty zapisują tę granicę w uchwałach, a spółdzielnie w regulaminach. Niżej opisuję podział przyjmowany najczęściej. Jeśli sprawa jest sporna, poproś administrację o dokument, który obowiązuje w budynku.
+          </p>
+
+          <h2>Woda: granicą jest zawór na odejściu od pionu</h2>
+          <p>
+            Na odejściu od pionu do mieszkania jest zawór odcinający, zwykle tuż przed wodomierzem. Pion i najczęściej także ten zawór należą do części wspólnej. Wszystko za zaworem utrzymuje właściciel mieszkania: rury do kuchni i łazienki, zawory kątowe, wężyki, baterie, spłuczkę.
+          </p>
+          <p>
+            Z samym wodomierzem bywa różnie. W jednych budynkach odpowiada za niego właściciel mieszkania, w innych wspólnota wzięła liczniki na siebie razem z ich legalizacją. Wodomierz jest zaplombowany, więc przed pracą przy nim pyta się administrację.
+          </p>
+          <p>
+            Jeśli zawór przy wodomierzu nie daje się zakręcić albo po zakręceniu dalej przepuszcza wodę, zgłoś to administracji. Żeby go wymienić, trzeba zamknąć wodę na całym pionie. Jak wygląda wymiana zaworu, który odcina wodę kilku lokalom naraz, opisałem w artykule o <a href="/poradnik/kapiacy-zawor-w-piwnicy-bloku-wymiana">kapiącym zaworze w piwnicy bloku</a>.
+          </p>
+
+          <h2>Kanalizacja: pion z trójnikiem jest wspólny, podejścia należą do mieszkania</h2>
+          <p>
+            W kanalizacji częścią wspólną jest pion razem z trójnikiem, do którego podłączone jest mieszkanie. Rury od trójnika do zlewu, umywalki, wanny, brodzika, pralki i toalety oraz syfony utrzymuje właściciel mieszkania.
+          </p>
+          <p>
+            Rozpoznać to można po objawie. Gdy woda stoi w jednym zlewie, a pozostałe odpływy w mieszkaniu działają, zatkane jest podejście w mieszkaniu. Gdy ścieki wypływają w brodziku albo w toalecie, choć nikt w mieszkaniu nie korzysta z wody, zatkany jest pion i dzwoni się do administracji. Ten drugi przypadek opisałem w poradniku o tym, <a href="/poradnik/wyciek-wody-w-mieszkaniu-skad-leci-woda-i-co-zrobic">skąd leci woda w mieszkaniu</a>.
+          </p>
+
+          <h2>Centralne ogrzewanie: najpierw administracja</h2>
+          <p>
+            Instalacja centralnego ogrzewania jest wspólna dla całego budynku. Czy grzejnik w mieszkaniu też do niej należy, bywa zapisane różnie. O każdą pracę przy grzejniku pyta się najpierw administrację, bo zdjęcie albo wymiana grzejnika często wymaga spuszczenia wody z pionu, a to robi obsługa budynku.
+          </p>
+
+          <h2>Mieszkanie wynajmowane: co naprawia najemca, a co właściciel</h2>
+          <p>
+            W najmie dochodzi drugi podział, między najemcą a właścicielem mieszkania. Opisuje go ustawa o ochronie praw lokatorów.
+          </p>
+          <p>
+            Właściciel odpowiada za naprawy i wymianę instalacji w mieszkaniu: wodociągowej i ciepłej wody (bez armatury i wyposażenia), kanalizacyjnej oraz centralnego ogrzewania razem z grzejnikami (art. 6a).
+          </p>
+          <p>
+            Najemca naprawia i konserwuje to, z czego korzysta na co dzień: baterie i zawory czerpalne, wannę, brodzik, miskę ustępową, zlewozmywak i umywalkę razem z syfonami, podgrzewacz wody. Ustawa dopisuje do tego ich wymianę. Do najemcy należą też przewody odpływowe od urządzeń sanitarnych aż do pionu, łącznie z usuwaniem ich niedrożności (art. 6b).
+          </p>
+          <p>
+            Dwa zastrzeżenia. Przy najmie od prywatnego właściciela umowa może ustalić ten podział inaczej (art. 6f), więc najpierw trzeba do niej zajrzeć. A szkodę, która powstała z winy najemcy, pokrywa najemca, bez względu na to, czyja to część instalacji.
+          </p>
+          <p>
+            Pęknięta rura z wodą w ścianie to sprawa właściciela. Najemca powinien zawiadomić go o takiej usterce niezwłocznie (art. 666 § 2 Kodeksu cywilnego). Jeśli zwleka, a woda robi w tym czasie kolejne szkody, może za nie odpowiadać.
+          </p>
+
+          <h2>Podział w skrócie</h2>
+          <div class="podzial-wrap">
+            <table class="podzial">
+              <thead>
+                <tr>
+                  <th scope="col">Element instalacji</th>
+                  <th scope="col">Mieszkanie własne</th>
+                  <th scope="col">Mieszkanie wynajmowane</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Pion wody, kanalizacji i c.o.</th>
+                  <td>wspólnota albo spółdzielnia</td>
+                  <td>wspólnota albo spółdzielnia; usterkę zgłasza się administracji i właścicielowi</td>
+                </tr>
+                <tr>
+                  <th scope="row">Zawór odcinający przy wodomierzu</th>
+                  <td>najczęściej wspólnota albo spółdzielnia</td>
+                  <td>jak w mieszkaniu własnym</td>
+                </tr>
+                <tr>
+                  <th scope="row">Rury wody za zaworem</th>
+                  <td>właściciel mieszkania</td>
+                  <td>właściciel mieszkania</td>
+                </tr>
+                <tr>
+                  <th scope="row">Baterie, zawory czerpalne, miska ustępowa</th>
+                  <td>właściciel mieszkania</td>
+                  <td>najemca</td>
+                </tr>
+                <tr>
+                  <th scope="row">Syfony i odpływy do pionu</th>
+                  <td>właściciel mieszkania</td>
+                  <td>najemca</td>
+                </tr>
+                <tr>
+                  <th scope="row">Grzejnik</th>
+                  <td>według uchwały albo regulaminu</td>
+                  <td>właściciel mieszkania</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Kolumna o najmie pokazuje podział z ustawy. Umowa najmu może go zmienić.
+          </p>
+
+          <h2>Zalanie sąsiada: odpowiada ten, kto zawinił</h2>
+          <p>
+            Przy zalaniu mieszkania piętro niżej nie ma zasady, że zawsze płaci sąsiad z góry. Sąd Najwyższy w uchwale z 19 lutego 2013 r. (III CZP 63/12) przyjął, że odpowiada się tu na zasadzie winy. Liczy się więc przyczyna i to, kto miał dbać o element, który zawiódł.
+          </p>
+          <p>
+            Od strony instalacji pierwsze kroki są te same w każdym mieszkaniu. Zamknij zawór przy wodomierzu. Jeśli woda dalej leci, dzwoń do administracji albo do pogotowia technicznego budynku, bo wyciek jest przed zaworem. Zanim zacznie się naprawa, zrób zdjęcia miejsca, z którego ciekło.
+          </p>
+
+          <h2>Do kogo dzwonić</h2>
+          <p>
+            Pion, zawór przy wodomierzu, ścieki cofające się z pionu i grzejniki zgłasza się administracji. To, co jest w mieszkaniu za zaworem, naprawiam ja: baterie, spłuczki, zawory kątowe i wężyki, syfony, podejścia pod zlew, pralkę i zmywarkę. Jeśli wynajmujesz mieszkanie, ustal najpierw z właścicielem, kto zleca naprawę.
+          </p>
+          <p>
+            Tekst opisuje podział od strony instalacji i nie zastępuje porady prawnej.
+          </p>
+        </div>
+
+        <section class="article__faq" aria-label="Najczęstsze pytania">
+          <h2>Najczęściej zadawane pytania</h2>
+          {faq.map((item) => (
+            <details class="faq-item">
+              <summary>{item.q}</summary>
+              <div class="faq-item__a"><p>{item.a}</p></div>
+            </details>
+          ))}
+        </section>
+
+        <div class="article__cta">
+          <div>
+            <strong>Usterka w mieszkaniu? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — koszt podaję przed pracą.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <style is:global>
+    .article__content .podzial-wrap {
+      margin: 0 0 18px;
+      overflow-x: auto;
+      border: 1px solid var(--line, #e7ded5);
+      border-radius: var(--radius-md, 18px);
+      background: var(--card, rgba(255, 255, 255, 0.86));
+    }
+    .article__content .podzial {
+      width: 100%;
+      min-width: 560px;
+      border-collapse: collapse;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .article__content .podzial th,
+    .article__content .podzial td {
+      padding: 12px 16px;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--line, #e7ded5);
+    }
+    .article__content .podzial thead th {
+      color: var(--ink, #181b35);
+      background: var(--blue-soft, #eaf2ff);
+    }
+    .article__content .podzial tbody th {
+      color: var(--ink, #181b35);
+      font-weight: 700;
+    }
+    .article__content .podzial tbody tr:last-child th,
+    .article__content .podzial tbody tr:last-child td {
+      border-bottom: 0;
+    }
+  </style>
+</PoradnikLayout>
