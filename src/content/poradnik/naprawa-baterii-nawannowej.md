@@ -1,7 +1,7 @@
 ---
 title: "Naprawa baterii nawannowej: wymiana głowic i kurków"
 description: "Realizacja z Targówka: bateria nawannowa na starych kolanach przy wannie. Dlaczego zamiast nowej baterii wymieniłem głowice i kurki i kiedy wymiana całości oznacza kucie płytek."
-pubDate: 2026-11-22T11:38:52
+pubDate: 2026-11-20T16:42:17
 updatedDate: 2026-11-22T14:07:43
 author: "i Hydraulik"
 category: "Drobne naprawy"
