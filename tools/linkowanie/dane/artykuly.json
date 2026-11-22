@@ -28,5 +28,6 @@
   "cieknacy-zawor-katowy-wymiana-bez-ukrecenia-rury-ppr": { "miejsce": "Ochota", "potwierdzone": true },
   "podlaczenie-stacji-robota-sprzatajacego": { "miejsce": "Targówek", "potwierdzone": true },
   "naprawa-baterii-nawannowej": { "miejsce": "Targówek", "potwierdzone": true },
-  "wymiana-baterii-wannowej-umywalkowej": { "miejsce": "Białołęka", "potwierdzone": true }
+  "wymiana-baterii-wannowej-umywalkowej": { "miejsce": "Białołęka", "potwierdzone": true },
+  "korek-click-clack-nie-dziala": { "miejsce": "Rembertów", "potwierdzone": true }
 }

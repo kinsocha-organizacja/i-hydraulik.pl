@@ -6,7 +6,7 @@
   "hydraulikpragapolnoc": { "miejsce": "Praga Północ", "anchor": "na Pradze-Północ", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
   "hydraulikmarki": { "miejsce": "Marki", "anchor": "w Markach", "kafle": ["przeniesienie-zlewu-w-kuchni-marki", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
   "hydraulikmokotow": { "miejsce": "Mokotów", "anchor": "na Mokotowie", "kafle": ["wymiana-baterii-umywalkowej-i-polsyfonu", "podejscie-z-rury-32-mm-dlaczego-odplyw-ciagle-sie-zatyka"] },
-  "hydraulikrembertow": { "miejsce": "Rembertów", "anchor": "w Rembertowie", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "przeniesienie-zlewu-w-kuchni-marki"] },
+  "hydraulikrembertow": { "miejsce": "Rembertów", "anchor": "w Rembertowie", "kafle": ["korek-click-clack-nie-dziala", "zapchany-zlew-wymiana-instalacji-odplywowej-praga"] },
   "hydrauliktargowek": { "miejsce": "Targówek", "anchor": "na Targówku", "kafle": ["naprawa-baterii-nawannowej", "podlaczenie-stacji-robota-sprzatajacego"] },
   "hydraulikursynow": { "miejsce": "Ursynów", "anchor": "na Ursynowie", "kafle": [] },
   "hydraulikwawer": { "miejsce": "Wawer", "anchor": "w Wawrze", "kafle": [] },
