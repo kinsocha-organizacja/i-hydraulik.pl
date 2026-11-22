@@ -2,6 +2,7 @@
 title: "Wymiana baterii wannowej i umywalkowej, stary syfon wanny"
 description: "Realizacja z Białołęki: dwie baterie ścienne wymienione na nowe podczas jednej wizyty i udrożnienie wanny ze starym metalowym syfonem, który czyści się przez korek z boku wanny."
 pubDate: 2026-11-22T12:53:41
+updatedDate: 2026-11-22T14:26:18
 author: "i Hydraulik"
 category: "Wymiana armatury"
 readingTime: 3
@@ -23,7 +24,7 @@ faq:
     a: "Cenę podaję przed rozpoczęciem pracy. Zależy od kilku czynników: rodzaju baterii, stanu przyłączy w ścianie i tego, czy przy okazji jest do zrobienia coś jeszcze. Prześlij zdjęcia na numer 511 323 123, a powiem, jak to będzie wyglądać."
 ---
 
-Zlecenie przyszło [z Białołęki](/hydraulikbialoleka). W łazience były do wymiany dwie baterie ścienne: wannowa i umywalkowa. Klientka chciała w ich miejsce nowe, w złotym kolorze i z dwoma pokrętłami.
+Zlecenie przyszło z Nowodworów [na Białołęce](/hydraulikbialoleka). W łazience były do wymiany dwie baterie ścienne: wannowa i umywalkowa. Klientka chciała w ich miejsce nowe, w złotym kolorze i z dwoma pokrętłami.
 
 ## Bateria wannowa
 
