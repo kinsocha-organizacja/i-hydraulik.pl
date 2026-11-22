@@ -2,6 +2,7 @@
 title: "Naprawa baterii nawannowej: wymiana głowic i kurków"
 description: "Realizacja z Targówka: bateria nawannowa na starych kolanach przy wannie. Dlaczego zamiast nowej baterii wymieniłem głowice i kurki i kiedy wymiana całości oznacza kucie płytek."
 pubDate: 2026-11-22T11:38:52
+updatedDate: 2026-11-22T14:07:43
 author: "i Hydraulik"
 category: "Drobne naprawy"
 readingTime: 3
@@ -27,7 +28,7 @@ Zgłoszenie przyszło [z Targówka](/hydrauliktargowek). Klientka zadzwoniła w 
 
 ## Bateria osadzona na kolanach przy wannie
 
-Ta bateria nie wisiała na ścianie. Stała na brzegu wanny, przykręcona do specjalnych kolan, które są przymocowane do wanny od spodu. Kolanami dochodzi do baterii woda. Z góry widać tylko baterię, a kolana siedzą pod wanną.
+Ta bateria nie wisiała na ścianie. Stała na brzegu wanny, przykręcona do specjalnych kolan, które są przymocowane do wanny od spodu. Woda dochodzi do baterii przez te kolana. Z góry widać tylko baterię, a kolana siedzą pod wanną.
 
 ## Dlaczego nie założyłem nowej baterii
 
@@ -37,7 +38,7 @@ W takiej sytuacji lepiej nie ryzykować.
 
 ## Wymiana głowic i kurków
 
-Baterię zostawiłem na kolanach i wymieniłem w niej głowice i kurki. Głowica to część wkręcona w korpus pod kurkiem. Kiedy kręcisz kurkiem, to ona otwiera i zamyka wodę. Głowice wykręca się z korpusu baterii, więc kolana pod wanną zostały nieruszone.
+Zostawiłem baterię na kolanach i wymieniłem w niej głowice i kurki. Głowica to część wkręcona w korpus pod kurkiem. Kiedy kręcisz kurkiem, to ona otwiera i zamyka wodę. Głowice wykręca się z korpusu baterii, więc kolana pod wanną zostały nieruszone.
 
 <img src="/img/poradnik/stare-glowice-i-kurki-baterii-nawannowej-po-wymianie.webp" alt="Dwie stare mosiężne głowice, dwa chromowane kurki, śrubka i zaślepki w kolorze czerwonym i niebieskim po wyjęciu z baterii nawannowej" width="800" height="600" loading="lazy" decoding="async" />
 
@@ -45,7 +46,7 @@ Na zdjęciu stare części po wyjęciu: dwie głowice, dwa kurki i zaślepki z o
 
 ## Kiedy nowa bateria, a kiedy naprawa starej
 
-Nową baterię przy wannie zakładam wtedy, gdy do kolan jest dojście: przez otwór rewizyjny albo po zdjęciu obudowy. Jeśli kolano ułamie się przy odkręcaniu, wymieniam je od spodu i montuję baterię dalej. Gdy dojścia nie ma, a kolana mają swoje lata, wymieniam głowice i kurki w baterii, która już stoi.
+Zakładam nową baterię przy wannie wtedy, gdy do kolan jest dojście: przez otwór rewizyjny albo po zdjęciu obudowy. Jeśli kolano ułamie się przy odkręcaniu, wymieniam je od spodu i montuję baterię dalej. Gdy dojścia nie ma, a kolana mają swoje lata, wymieniam głowice i kurki w baterii, która już stoi.
 
 Przed wizytą prześlij zdjęcia baterii i obudowy wanny. Po nich widać, na czym bateria jest osadzona i czy pod wannę da się zajrzeć.
 

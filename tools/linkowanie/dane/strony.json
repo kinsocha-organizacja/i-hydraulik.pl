@@ -1,6 +1,6 @@
 {
   "hydraulikanin": { "miejsce": "Anin", "anchor": "w Aninie", "kafle": ["slabe-cisnienie-wody-zatkany-zawor-antyskazeniowy", "jak-zgrzewac-rury-z-polipropylenu-ppr"] },
-  "hydraulikbialoleka": { "miejsce": "Białołęka", "anchor": "na Białołęce", "kafle": [] },
+  "hydraulikbialoleka": { "miejsce": "Białołęka", "anchor": "na Białołęce", "kafle": ["wymiana-baterii-wannowej-umywalkowej", "montaz-pralki-w-nowym-mieszkaniu"] },
   "hydraulikbielany": { "miejsce": "Bielany", "anchor": "na Bielanach", "kafle": [] },
   "hydraulikochota": { "miejsce": "Ochota", "anchor": "na Ochocie", "kafle": ["cieknacy-zawor-katowy-wymiana-bez-ukrecenia-rury-ppr", "woda-ze-zmywarki-wybila-do-zlewu-po-remoncie"] },
   "hydraulikpragapolnoc": { "miejsce": "Praga Północ", "anchor": "na Pradze-Północ", "kafle": ["zapchany-zlew-wymiana-instalacji-odplywowej-praga", "mokra-sciana-sasiada-przeciek-przy-baterii"] },
