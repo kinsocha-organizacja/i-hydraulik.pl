@@ -5,6 +5,8 @@ const title = "Kto naprawia rury w bloku: lokator czy administracja?";
 const h1 = "Co w bloku naprawia lokator, a co administracja i wynajmujący?";
 const description =
   "Pion, zawór przy wodomierzu, podejścia, bateria, grzejnik. Co w bloku naprawia właściciel mieszkania, co administracja, a co najemca i wynajmujący.";
+const hero = "/img/poradnik/usterka-w-bloku-kto-naprawia.webp";
+const heroAlt = "Grafika: usterka w bloku, kto ją naprawia. Pion i zawór przy wodomierzu naprawia administracja budynku, baterie, spłuczkę, syfony i wężyki właściciel mieszkania, w mieszkaniu wynajmowanym najpierw sprawdza się umowę najmu";
 
 const faq = [
   {
@@ -34,6 +36,7 @@ const articleLd = {
   "@type": "Article",
   headline: h1,
   description,
+  image: `https://i-hydraulik.pl${hero}`,
   author: { "@type": "Organization", name: "i Hydraulik" },
   publisher: {
     "@type": "Organization",
@@ -42,7 +45,7 @@ const articleLd = {
   },
   mainEntityOfPage: "https://i-hydraulik.pl/poradnik/kto-naprawia-instalacje-w-bloku",
   datePublished: "2026-11-15T18:47:12+01:00",
-  dateModified: "2026-11-15T18:47:12+01:00",
+  dateModified: "2026-11-19T09:44:18+01:00",
 };
 
 const faqLd = {
@@ -74,6 +77,10 @@ const faqLd = {
         <p class="article__lead">
           Cieknie przy wodomierzu, kapie z pionu w łazience, w wynajętym mieszkaniu zepsuła się bateria. Zanim ktoś przyjedzie to naprawić, trzeba ustalić, czyja to część instalacji, bo od tego zależy, kto zleca naprawę i kto za nią płaci.
         </p>
+
+        <figure class="article__hero">
+          <img src={hero} alt={heroAlt} width="1200" height="675" />
+        </figure>
 
         <div class="article__content">
           <p>
