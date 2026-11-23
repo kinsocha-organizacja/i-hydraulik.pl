@@ -51,6 +51,6 @@ Nie każdą stację ze zbiornikami da się podłączyć na stałe. Przed zakupem
 
 ## Potrzebujesz podłączenia stacji robota?
 
-Takie podłączenia robię dla właścicieli nowych mieszkań [na Białołęce](/hydraulikbialoleka), dla osób wynajmujących mieszkania w kamienicach [na Pradze-Północ](/hydraulikpragapolnoc) i dla rodzin z psem albo kotem [na Żoliborzu](/hydraulikzoliborz), u których robot jeździ codziennie. Przed montażem prześlij model urządzenia oraz zdjęcia miejsca na stację i przyłączy pod zlewem.
+Takie podłączenia robię dla właścicieli nowych mieszkań [na Pradze-Południe](/hydraulikpragapoludnie), dla osób wynajmujących mieszkania w kamienicach [na Pradze-Północ](/hydraulikpragapolnoc) i dla rodzin z psem albo kotem [na Żoliborzu](/hydraulikzoliborz), u których robot jeździ codziennie. Przed montażem prześlij model urządzenia oraz zdjęcia miejsca na stację i przyłączy pod zlewem.
 
 Hydraulik Warszawa, tel. **511 323 123**.

@@ -55,6 +55,6 @@ Zdjęliśmy płytę z drugiej studni i stamtąd wprowadziliśmy sprężynę elek
 
 ## Masz podobny problem z przyłączem?
 
-Udrażniamy kanalizację, czyścimy studzienki i przywracamy przepływ na terenie całej Warszawy: dla właścicieli domów [w Rembertowie](/hydraulikrembertow), wspólnot mieszkaniowych [na Mokotowie](/hydraulikmokotow) i administracji osiedli [na Ursynowie](/hydraulikursynow), a także w Wołominie, Kobyłce i Zielonce. Działamy jako pogotowie hydrauliczne całą dobę — mamy sprzęt na różne średnice i różne przebiegi rur.
+Udrażniamy kanalizację, czyścimy studzienki i przywracamy przepływ na terenie całej Warszawy: dla właścicieli domów [w Rembertowie](/hydraulikrembertow), wspólnot mieszkaniowych [na Mokotowie](/hydraulikmokotow) i administracji osiedli [na Pradze-Południe](/hydraulikpragapoludnie), a także w Wołominie, Kobyłce i Zielonce. Działamy jako pogotowie hydrauliczne całą dobę — mamy sprzęt na różne średnice i różne przebiegi rur.
 
 Zadzwoń **511 323 123**, przyjedziemy z wyceną przed rozpoczęciem pracy.

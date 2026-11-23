@@ -25,7 +25,7 @@ faq:
 
 ## Zatkany odpływ dwa miesiące po remoncie
 
-Niedawno skończył się u niego remont i klient zaczął korzystać z prysznica. Po dwóch miesiącach zatkał się odpływ brodzika. Chcąc go udrożnić, kupił ręczną sprężynę i próbował wprowadzić ją do odpływu. Nigdzie nie widział jednak otworu, w który mógłby ją włożyć.
+Klient [z Pragi-Południe](/hydraulikpragapoludnie) niedawno skończył remont i zaczął korzystać z prysznica. Po dwóch miesiącach zatkał się odpływ brodzika. Chcąc go udrożnić, kupił ręczną sprężynę i próbował wprowadzić ją do odpływu. Nigdzie nie widział jednak otworu, w który mógłby ją włożyć.
 
 ## Rada wykonawcy i woda ze słuchawki
 

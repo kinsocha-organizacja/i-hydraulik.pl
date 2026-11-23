@@ -52,6 +52,6 @@ Przed wizytą prześlij zdjęcia baterii i obudowy wanny. Po nich widać, na czy
 
 ## Naprawa i wymiana baterii w Warszawie
 
-Jako hydraulik na Targówku i w całej Warszawie naprawiam i wymieniam baterie, krany, zawory, spłuczki i kabiny prysznicowe. Zgłoszenia [z Pragi-Północ](/hydraulikpragapolnoc), [z Żoliborza](/hydraulikzoliborz) i [z Białołęki](/hydraulikbialoleka) przyjmuję tak samo jak to z Targówka: najpierw zdjęcia, potem termin.
+Jako hydraulik na Targówku i w całej Warszawie naprawiam i wymieniam baterie, krany, zawory, spłuczki i kabiny prysznicowe. Zgłoszenia [z Pragi-Północ](/hydraulikpragapolnoc), [z Żoliborza](/hydraulikzoliborz) i [z Pragi-Południe](/hydraulikpragapoludnie) przyjmuję tak samo jak to z Targówka: najpierw zdjęcia, potem termin.
 
 Hydraulik Warszawa, tel. **511 323 123**.

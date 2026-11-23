@@ -53,6 +53,6 @@ Wyjmuję zacięty albo ułamany korek, czyszczę odpływ z osadu i montuję nowy
 
 ## Wymiana korków i syfonów w Warszawie
 
-Wymieniam korki click-clack, syfony i armaturę w łazience i w kuchni w całej Warszawie: w domach jednorodzinnych [w Wawrze](/hydraulikwawer), w blokach [na Targówku](/hydrauliktargowek) i w kamienicach [na Pradze-Północ](/hydraulikpragapolnoc). Do prostych usterek zwykle przyjeżdżam tego samego dnia. Dojeżdżam też do Wołomina, gdzie naprawiam cieknące krany, wymieniam uszczelki i montuję umywalki.
+Wymieniam korki click-clack, syfony i armaturę w łazience i w kuchni w całej Warszawie: w domach jednorodzinnych [w Wawrze](/hydraulikwawer), w blokach [na Targówku](/hydrauliktargowek) i w kamienicach [na Pradze-Południe](/hydraulikpragapoludnie). Do prostych usterek zwykle przyjeżdżam tego samego dnia. Dojeżdżam też do Wołomina, gdzie naprawiam cieknące krany, wymieniam uszczelki i montuję umywalki.
 
 Hydraulik Warszawa, tel. **511 323 123**.

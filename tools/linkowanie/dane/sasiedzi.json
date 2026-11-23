@@ -2,7 +2,7 @@
   "Anin": [
     "hydraulikwawer",
     "hydraulikrembertow",
-    "hydraulikmokotow"
+    "hydraulikpragapoludnie"
   ],
   "Białołęka": [
     "hydraulikbielany",
@@ -17,17 +17,17 @@
   "Mokotów": [
     "hydraulikochota",
     "hydraulikursynow",
-    "hydraulikpragapolnoc"
+    "hydraulikpragapoludnie"
   ],
   "Rembertów": [
     "hydraulikwawer",
-    "hydrauliktargowek",
-    "hydraulikpragapolnoc"
+    "hydraulikpragapoludnie",
+    "hydrauliktargowek"
   ],
   "Targówek": [
     "hydraulikpragapolnoc",
     "hydraulikzoliborz",
-    "hydraulikbialoleka"
+    "hydraulikpragapoludnie"
   ],
   "Ursynów": [
     "hydraulikmokotow",
@@ -36,8 +36,8 @@
   ],
   "Wawer": [
     "hydraulikrembertow",
-    "hydraulikmokotow",
-    "hydraulikursynow"
+    "hydraulikpragapoludnie",
+    "hydraulikmokotow"
   ],
   "Wola": [
     "hydraulikochota",
@@ -62,7 +62,7 @@
   "Praga Północ": [
     "hydrauliktargowek",
     "hydraulikzoliborz",
-    "hydraulikwola"
+    "hydraulikpragapoludnie"
   ],
   "Praga Południe": [
     "hydraulikpragapolnoc",
@@ -72,17 +72,17 @@
   "Wesoła": [
     "hydraulikrembertow",
     "hydraulikwawer",
-    "hydrauliktargowek"
+    "hydraulikpragapoludnie"
   ],
   "Stara Miłosna": [
     "hydraulikwawer",
     "hydraulikrembertow",
-    "hydrauliktargowek"
+    "hydraulikpragapoludnie"
   ],
   "Marki": [],
   "Saska Kępa": [
+    "hydraulikpragapoludnie",
     "hydraulikpragapolnoc",
-    "hydraulikmokotow",
-    "hydrauliktargowek"
+    "hydraulikmokotow"
   ]
 }
