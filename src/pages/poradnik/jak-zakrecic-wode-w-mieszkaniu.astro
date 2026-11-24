@@ -1,0 +1,197 @@
+---
+import PoradnikLayout from "../../layouts/PoradnikLayout.astro";
+
+const title = "Jak zakręcić wodę w mieszkaniu? Gdzie szukać zaworu";
+const h1 = "Jak zakręcić wodę w mieszkaniu i gdzie szukać zaworu?";
+const description =
+  "Zawór odcinający wodę w całym mieszkaniu jest przy wodomierzu: w wielkiej płycie w łazience i w kuchni, w nowym budynku w szachcie na korytarzu.";
+
+const faq = [
+  {
+    q: "Gdzie jest zawór główny wody w mieszkaniu w bloku?",
+    a: "Przy wodomierzu. W blokach z wielkiej płyty wodomierze są w łazience za panelem przy umywalce, wannie albo misce WC oraz osobno w kuchni, zwykle pod zlewem. W nowych budynkach są w zamykanym szachcie na korytarzu, na piętrze mieszkania.",
+  },
+  {
+    q: "W którą stronę zakręca się zawór wody?",
+    a: "Pokrętło kręci się w prawo, zgodnie z ruchem wskazówek zegara, aż do oporu. Dźwignię zaworu kulowego ustawia się w poprzek rury.",
+  },
+  {
+    q: "Czy przed wyjazdem zakręcać wodę w mieszkaniu?",
+    a: "Tak, jeśli zawory przy wodomierzach zamykają się bez dużego oporu. Gdy podczas nieobecności pęknie wężyk przy baterii albo przy pralce, z instalacji wypłynie tylko woda, która została w rurach. Zaworu, który stawia duży opór, nie zamykaj na siłę przed samym wyjazdem. Zgłoś go wcześniej administracji.",
+  },
+  {
+    q: "Zakręciłem zawór przy wodomierzu, a woda dalej leci. Co robić?",
+    a: "Sprawdź, czy zamknięte są oba zawory, zimnej i ciepłej wody, a w bloku z wielkiej płyty także zawory w drugim pomieszczeniu. Jeśli wszystkie są zamknięte, a woda leci, zawór przepuszcza albo wyciek jest przed nim. Dzwoń wtedy do administracji albo do pogotowia technicznego budynku.",
+  },
+  {
+    q: "Czy mogę sam zamknąć wodę na pionie w piwnicy?",
+    a: "Nie. Zawór pionu odcina wodę wielu mieszkaniom i obsługuje go administracja budynku. Gdy woda w mieszkaniu jest już zamknięta i trzeba naprawić to, co ciekło, zadzwoń: 511 323 123.",
+  },
+];
+
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: h1,
+  description,
+  author: { "@type": "Organization", name: "i Hydraulik" },
+  publisher: {
+    "@type": "Organization",
+    name: "i Hydraulik",
+    logo: { "@type": "ImageObject", url: "https://i-hydraulik.pl/favicon.svg" },
+  },
+  mainEntityOfPage: "https://i-hydraulik.pl/poradnik/jak-zakrecic-wode-w-mieszkaniu",
+  datePublished: "2026-11-25T00:06:41+01:00",
+  dateModified: "2026-11-25T00:06:41+01:00",
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<PoradnikLayout title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(articleLd)} />
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(faqLd)} />
+
+  <div class="article-wrap">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Ścieżka">
+        <a href="/">Start</a> <span>/</span>
+        <a href="/poradnik">Poradnik</a> <span>/</span>
+        <span>Jak zakręcić wodę w mieszkaniu</span>
+      </nav>
+
+      <article class="article">
+        <span class="article__tag">Instalacja wodna</span>
+        <h1>{h1}</h1>
+        <p class="article__lead">
+          Pękł wężyk pod zlewem, cieknie spłuczka albo trzeba wymienić baterię. W każdym z tych przypadków najpierw zamyka się dopływ wody. Zaworów odcinających wodę w mieszkaniu szukaj przy wodomierzach. W bloku z wielkiej płyty zwykle znajdują się one w innych miejscach niż w nowym budynku.
+        </p>
+
+        <div class="article__content">
+          <p>
+            Gdy ktoś dzwoni z powodu wycieku, pytam, czy woda jest już zakręcona. Często słyszę, że nie, bo nikt z domowników nie wie, gdzie są zawory. Niżej opisuję miejsca, w których znajduję je w warszawskich blokach, oraz wyjaśniam, jak je zamykać.
+          </p>
+
+          <h2>Zacznij od zaworka przy urządzeniu</h2>
+          <p>
+            Pod zlewem, pod umywalką i przy spłuczce są zwykle małe zawory kątowe. Odcinają dopływ wody do baterii, spłuczki, pralki albo zmywarki. Jeśli cieknie wężyk albo bateria, zwykle wystarczy zamknąć odpowiednie zaworki, a w pozostałej części mieszkania nadal można korzystać z wody. Do baterii prowadzą dwa przyłącza: zimnej i ciepłej wody. Jeśli każde ma swój zaworek, przed wymianą baterii zakręca się oba.
+          </p>
+          <p>
+            Zaworek kątowy nie pomoże, gdy cieknie on sam, połączenie przed nim albo rura w ścianie. Stary zaworek potrafi też przepuszczać wodę po zakręceniu. Wtedy trzeba zamknąć dopływ wody do tej części instalacji przy wodomierzu.
+          </p>
+
+          <h2>Zaworów odcinających wodę w mieszkaniu szukaj przy wodomierzach</h2>
+          <p>
+            Przy wodomierzu powinien znajdować się zawór odcinający. Mieszkanie z ciepłą wodą z sieci ma zwykle osobny wodomierz zimnej wody i osobny wodomierz ciepłej wody, a przy nich dwa zawory. Jeśli kuchnia i łazienka są zasilane z osobnych pionów, wodomierzy i zaworów może być więcej.
+          </p>
+          <p>
+            Wodomierz zimnej wody ma zwykle niebieską obudowę albo niebieski pierścień, a wodomierz ciepłej wody — czerwony. Jeśli nie wiesz, z której rury cieknie, zamknij dopływ zarówno zimnej, jak i ciepłej wody.
+          </p>
+
+          <h2>Blok z wielkiej płyty: wodomierze w łazience i osobno w kuchni</h2>
+          <p>
+            W wielu blokach z wielkiej płyty łazienka i kuchnia mają osobne piony, a przy każdym z nich znajdują się osobne wodomierze. W takim układzie zawory w łazience nie odcinają wody w kuchni. Żeby zamknąć wodę w całym mieszkaniu, trzeba zakręcić zawory w obu pomieszczeniach. Łącznie mogą być cztery.
+          </p>
+          <p>
+            W łazience wodomierze często znajdują się w szachcie instalacyjnym za panelem. Najczęściej jest to ściana, przy której stoi umywalka i wisi lustro. Szacht bywa też z boku, po lewej albo po prawej stronie, w pobliżu wanny lub miski WC. W zabudowie powinny być drzwiczki albo zdejmowana płyta.
+          </p>
+          <p>
+            W kuchni wodomierze są zazwyczaj w szafce pod zlewem. Mogą też znajdować się w szachcie za osłoną przy drzwiach do kuchni.
+          </p>
+          <p>
+            Jeśli po remoncie nie ma dostępu do wodomierzy i zaworów, trzeba go zapewnić, zanim zdarzy się wyciek.
+          </p>
+
+          <h2>Nowe budownictwo: szacht na korytarzu</h2>
+          <p>
+            W nowych budynkach wodomierze często znajdują się poza mieszkaniem — w szachcie na korytarzu, na tym samym piętrze. W jednym szachcie mogą być zebrane wodomierze i zawory kilku mieszkań.
+          </p>
+          <p>
+            Szacht jest zwykle zamknięty na klucz. Niekiedy mieszkańcy mają własny kluczyk. Bywa jednak, że kluczami dysponują tylko ochrona lub zarządca budynku. Wtedy trzeba poprosić o otwarcie szachtu.
+          </p>
+          <p>
+            W środku jest kilka albo kilkanaście wodomierzy, więc trzeba znaleźć te przypisane do swojego mieszkania. Zwykle są opisane numerami lokali. Jeśli opisu nie ma, porównaj numer wodomierza z numerem na rozliczeniu za wodę. Gdy nie możesz ustalić, który zawór należy do Twojego mieszkania, poproś o pomoc administrację lub obsługę techniczną budynku.
+          </p>
+          <p>
+            W niektórych instalacjach mieszkanie może mieć jeden zawór zimnej wody i dwa zawory związane z ciepłą wodą: jeden na zasilaniu, a drugi na przewodzie cyrkulacyjnym. Cyrkulacja zapewnia krążenie ciepłej wody w instalacji, dzięki czemu krócej czeka się na nią po odkręceniu kranu.
+          </p>
+          <p>
+            W takim układzie w szachcie mogą znajdować się trzy wodomierze przypisane do tego samego mieszkania: jeden zimnej wody i dwa związane z obiegiem ciepłej wody. Przy odcinaniu ciepłej wody trzeba uwzględnić również cyrkulację. Kieruj się oznaczeniami instalacji, a w razie wątpliwości skontaktuj się z obsługą techniczną budynku.
+          </p>
+
+          <h2>Jak zamknąć zawór: dźwignia albo pokrętło</h2>
+          <p>
+            Zawór kulowy ma dźwignię albo krótki uchwyt w kształcie motylka. Zamyka się go, obracając uchwyt o ćwierć obrotu. Dźwignia ustawiona wzdłuż rury oznacza, że zawór jest otwarty, a ustawiona w poprzek — że jest zamknięty.
+          </p>
+          <p>
+            Starsze zawory często mają okrągłe pokrętło. Zwykle zamyka się je, obracając pokrętło w prawo, zgodnie z ruchem wskazówek zegara, aż do wyczuwalnego oporu. Nie dokręcaj go na siłę.
+          </p>
+          <p>
+            Potem odkręć kran w mieszkaniu. Woda powinna płynąć jeszcze przez chwilę, coraz słabiej, aż całkowicie przestanie. Jeśli po minucie nadal płynie tak samo, możliwe, że zamknięty został niewłaściwy zawór, nie odcięto wszystkich dopływów albo zawór przepuszcza.
+          </p>
+          <p>
+            Pomocniczo można obserwować wodomierz: przy szczelnie zamkniętym dopływie nie powinien rejestrować przepływu. Sam brak ruchu wodomierza, gdy wszystkie krany są zakręcone, nie potwierdza jednak szczelności zaworu.
+          </p>
+
+          <h2>Zawór nie daje się ruszyć albo przepuszcza wodę</h2>
+          <p>
+            Zawór, którego nikt nie ruszał od lat, może zarosnąć kamieniem i przestać się obracać. Nie próbuj obracać go na siłę kombinerkami ani kluczem z przedłużką. Jeśli wskutek mocnego szarpnięcia ukręci się trzpień, woda może zacząć wypływać z samego zaworu. Jej zatrzymanie może wtedy wymagać zamknięcia pionu.
+          </p>
+          <p>
+            Niesprawny zawór przy wodomierzu najlepiej zgłosić administracji i ustalić, kto odpowiada za jego wymianę. Podział odpowiedzialności zależy od instalacji i zasad obowiązujących w budynku. Wymiana może wymagać zamknięcia wody na całym pionie, czym zajmuje się obsługa budynku. Podział obowiązków opisałem w artykule o tym, <a href="/poradnik/kto-naprawia-instalacje-w-bloku">co w bloku naprawia lokator, a co administracja</a>.
+          </p>
+          <p>
+            Bywa też, że zawór jest zamknięty, a woda nadal cieknie. Przyczyną może być nieszczelny zawór, nieodcięty drugi dopływ albo wyciek przed zaworem — na pionie lub na odejściu od niego. Jeśli nie możesz zatrzymać wycieku zaworami swojego mieszkania, dzwoń do administracji albo pogotowia technicznego budynku. Wymianę zaworu wspólnego dla kilku lokali opisałem na przykładzie <a href="/poradnik/kapiacy-zawor-w-piwnicy-bloku-wymiana">kapiącego zaworu w piwnicy bloku</a>.
+          </p>
+          <p>
+            Zdarza się, że zawór nieruszany przez wiele lat nie daje się zamknąć właśnie wtedy, gdy jest najbardziej potrzebny. Woda może się wtedy lać, dopóki ktoś nie zamknie pionu, a to może potrwać. <strong>Dlatego warto okresowo sprawdzać działanie dostępnych zaworów, zgodnie z zaleceniami producenta. Regularne poruszanie sprawnym zaworem pomaga zapobiegać jego zastaniu, ale nie gwarantuje szczelności.</strong>
+          </p>
+          <p>
+            W obiektach objętych regularną konserwacją instalacji takie kontrole należą do obowiązków techników. Ponad 20 lat temu pracowałem w jednym z obiektów telewizyjnych, w którym raz w miesiącu zakręcaliśmy i odkręcaliśmy każdy zawór dziesięć razy. Był to element przyjętej tam konserwacji instalacji wodnej i centralnego ogrzewania.
+          </p>
+
+          <h2>Jak odkręcić wodę po naprawie</h2>
+          <p>
+            Zanim otworzysz zawór, zakręć krany w mieszkaniu. Zawór otwieraj powoli. Potem odkręć kran z zimną wodą i poczekaj, aż z rur wydostanie się powietrze. Woda może przez chwilę pryskać i być mętna. Jeśli zamykany był również dopływ ciepłej wody, sprawdź także jej przepływ. Na koniec obejrzyj miejsce naprawy i upewnij się, że jest suche.
+          </p>
+
+          <h2>Co ustalić, zanim zdarzy się wyciek</h2>
+          <p>
+            Zaworów najlepiej poszukać w spokojny dzień. Sprawdź, czy masz do nich dostęp i czy dają się zamknąć. W budynku z szachtem na korytarzu ustal, kto ma klucz, i zapisz w telefonie numery do ochrony oraz administracji. Pokaż zawory pozostałym domownikom, a jeśli wynajmujesz komuś mieszkanie — także najemcy.
+          </p>
+
+          <h2>Kiedy dzwonić do hydraulika</h2>
+          <p>
+            Po zamknięciu wody pozostaje usunąć przyczynę wycieku. Zajmuję się naprawą lub wymianą wężyków, zaworów kątowych, baterii, spłuczek i rur w mieszkaniu za wodomierzem. Przy zgłoszeniu powiedz, skąd cieknie i czy zawór przy wodomierzu odcina dopływ wody. Zdjęcie miejsca wycieku pomoże mi dobrać i zabrać odpowiednie części.
+          </p>
+        </div>
+
+        <section class="article__faq" aria-label="Najczęstsze pytania">
+          <h2>Najczęściej zadawane pytania</h2>
+          {faq.map((item) => (
+            <details class="faq-item">
+              <summary>{item.q}</summary>
+              <div class="faq-item__a"><p>{item.a}</p></div>
+            </details>
+          ))}
+        </section>
+
+        <div class="article__cta">
+          <div>
+            <strong>Woda zakręcona i trzeba naprawić wyciek? Zadzwoń: 511 323 123</strong>
+            <span>Hydraulik Warszawa i okolice — koszt podaję przed pracą.</span>
+          </div>
+          <a class="btn-new btn-new--primary" href="tel:+48511323123">📞 Zadzwoń teraz</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</PoradnikLayout>
