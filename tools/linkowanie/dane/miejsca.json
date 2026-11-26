@@ -88,5 +88,10 @@
     "lat": 52.232,
     "lon": 21.056,
     "typ": "osiedle"
+  },
+  "Bemowo": {
+    "lat": 52.254,
+    "lon": 20.911,
+    "typ": "dzielnica"
   }
 }

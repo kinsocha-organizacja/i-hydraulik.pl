@@ -29,5 +29,6 @@
   "podlaczenie-stacji-robota-sprzatajacego": { "miejsce": "Targówek", "potwierdzone": true },
   "naprawa-baterii-nawannowej": { "miejsce": "Targówek", "potwierdzone": true },
   "wymiana-baterii-wannowej-umywalkowej": { "miejsce": "Białołęka", "potwierdzone": true },
-  "korek-click-clack-nie-dziala": { "miejsce": "Rembertów", "potwierdzone": true }
+  "korek-click-clack-nie-dziala": { "miejsce": "Rembertów", "potwierdzone": true },
+  "pomporozdrabniacz-wc-nie-dziala": { "miejsce": "Bemowo", "potwierdzone": true }
 }
