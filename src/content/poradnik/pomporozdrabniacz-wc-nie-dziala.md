@@ -86,4 +86,4 @@ Wężyk i zawór napełniający zostały na miejscu, bo były sprawne. Spłuczka
 
 Inne zgłoszenia, w których o przebiegu awarii zdecydował budynek, zebrałem w części o [awariach instalacji kanalizacyjnej](/poradnik/awarie-hydrauliczne-woda-kanalizacja-co#instalacja-kanalizacyjna).
 
-Toaleta nie odprowadza wody albo cieknie spłuczka? Hydraulik Warszawa, tel. **[511 323 123](tel:+48511323123)**. Zgłoszenia z Bemowa i [z Bielan](/hydraulikbielany) przyjmuję również wieczorami i w weekendy.
+Toaleta nie odprowadza wody albo cieknie spłuczka? Hydraulik Warszawa, tel. **[511 323 123](tel:+48511323123)**. Zgłoszenia [z Bemowa](/hydraulikbemowo) i [z Bielan](/hydraulikbielany) przyjmuję również wieczorami i w weekendy.
